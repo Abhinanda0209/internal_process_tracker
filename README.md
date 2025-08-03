@@ -27,9 +27,6 @@ Built as a portfolio project to demonstrate backend automation and data-driven p
 
 ---
 
-
----
-
 ## 🗃️ Database Schema
 
 ```sql
@@ -39,7 +36,9 @@ tasks(id, name, deadline, assigned_to)
 time_logs(id, employee_id, task_id, log_date, hours_logged)
 tools(id, name, last_used, assigned_to)
 
-📦 Setup Instructions
+---
+
+## 📦 Setup Instructions
 1. Clone the repository
 bash
 Copy
